@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>อาหารคลีน - เมนูอาหารคลีน</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        background-color: #fdf6ec;
+    }
+
+    header {
+        background: #d9b38c;
+        padding: 10px 0;
+        border-bottom: 3px solid #a67c52;
+        text-align: center;
+    }
+
+    header h1 {
+        color: #fff;
+        margin: 0;
+        font-size: 28px;
+    }
+
+    nav table {
+        width: 100%;
+        border-collapse: collapse;
+        background: #c69c6d;
+        margin-top: 10px;
+    }
+
+    nav td {
+        text-align: center;
+        padding: 15px 0;
+        color: #fff;
+        font-weight: bold;
+        text-transform: uppercase;
+        width: 20%;
+        cursor: pointer;
+        transition: background 0.3s ease;
+    }
+
+    nav td:hover {
+        background: #a67c52;
+    }
+
+    .container {
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .left-column, .right-column {
+        background-color: #fffaf0;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(166,124,82,0.2);
+        border-radius: 8px;
+    }
+
+    .left-column {
+        flex: 1 1 300px;
+    }
+
+    .right-column {
+        flex: 3 1 600px;
+        text-align: center;
+    }
+
+    .menu-item {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .menu-item img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        border-radius: 8px;
+        margin-bottom: 5px;
+    }
+
+    .menu-item p {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 5px 0;
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+
+        .right-column {
+            order: -1; /* แสดงด้านบนมือถือ ถ้าต้องการ */
+        }
+    }
+</style>
+<script type="text/javascript">
+function MM_swapImgRestore() { var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc; }
+function MM_preloadImages() { var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array(); var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0;i<a.length;i++) if(a[i].indexOf("#")!=0){d.MM_p[j]=new Image;d.MM_p[j++].src=a[i];}}}
+function MM_findObj(n,d){var p,i,x;if(!d)d=document;if((p=n.indexOf("?"))>0&&parent.frames.length){d=parent.frames[n.substring(p+1)].document;n=n.substring(0,p);}if(!(x=d[n])&&d.all)x=d.all[n];for(i=0;!x&&d.forms&&i<d.forms.length;i++)x=d.forms[i][n];for(i=0;!x&&d.layers&&i<d.layers.length;i++)x=MM_findObj(n,d.layers[i].document);if(!x&&d.getElementById)x=d.getElementById(n);return x;}
+function MM_swapImage(){var i,j=0,x,a=document.MM_swapImage.arguments;document.MM_sr=new Array;for(i=0;i<(a.length-2);i+=3)if((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x;if(!x.oSrc)x.oSrc=x.src;x.src=a[i+2];}}
+</script>
+</head>
+<body onLoad="MM_preloadImages('images/images/Screenshot-2025-09-18-122946_01.jpg','images/images/Screenshot-2025-09-18-122946_02.jpg','images/images/Screenshot-2025-09-18-122946_03.jpg','images/images/Screenshot-2025-09-18-122946_04.png','images/images/Screenshot-2025-09-18-122946_05.jpg')">
+
+<header>
+    <h1>นวัตกรรมสุขภาพสำหรับคนรุ่นใหม่</h1>
+    <nav>
+        <table>
+            <tr>
+                <td><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/images/Screenshot-2025-09-18-122946_01.jpg',1)"><img src="images/images/Untitled-4_01.png" width="175" height="60" id="Image4"></a></td>
+                <td><a href="Pure.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/images/Screenshot-2025-09-18-122946_02.jpg',1)"><img src="images/images/Untitled-4_02.png" width="280" height="60" id="Image5"></a></td>
+                <td><a href="Healthy Fats Menu.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','images/images/Screenshot-2025-09-18-122946_03.jpg',1)"><img src="images/images/Untitled-4_03.png" width="185" height="60" id="Image6"></a></td>
+                <td><a href="Article on Happiness.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','images/images/Screenshot-2025-09-18-122946_04.png',1)"><img src="images/images/Untitled-4_04.png" width="202" height="60" id="Image7"></a></td>
+                <td><a href="Contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','images/images/Screenshot-2025-09-18-122946_05.jpg',1)"><img src="images/images/Untitled-4_05.png" width="182" height="60" id="Image8"></a></td>
+            </tr>
+        </table>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="left-column">
+        <div class="menu-item">
+            <img src="images/2406.jpg" alt="อกไก่ย่าง">
+            <p>อกไก่ย่าง</p>
+        </div>
+        <div class="menu-item">
+            <img src="images/byorimj8qurh1hksj7o2.jpg" alt="โยเกิร์ตพร่องมันเนย">
+            <p>โยเกิร์ตพร่องมันเนย</p>
+        </div>
+        <div class="menu-item">
+            <img src="images/clean-food.jpg" alt="สลัดผักรวม + ปลาแซลมอนย่าง">
+            <p>สลัดผักรวม + ปลาแซลมอนย่าง</p>
+        </div>
+    </div>
+
+    <div class="right-column"></div>
+</div>
+
+</body>
+</html>
